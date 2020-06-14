@@ -11,7 +11,7 @@ class Shoe
     puts "Flipping the page...wow, you read fast!"
   end
   def cobble
-    puts
+    puts "Your shoe is as good as new!"
   end
  
 end
