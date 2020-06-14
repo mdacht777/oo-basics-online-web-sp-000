@@ -3,8 +3,8 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
  
-  def initialize(arg="Nike")
-    @brand = brand
+  def initialize(arg)
+    @brand = arg
   end
  
   def turn_page
